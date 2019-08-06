@@ -1,0 +1,23 @@
+namespace: "crivetimihai"
+name: "development"
+version: "1.0.0"
+readme: "README.md"
+authors:
+  - "Mihai Criveti (https://twitter.com/crivetimihai)"
+description: "Collection of Workstation Tools"
+license:
+  - "MIT"
+tags:
+  - linux
+  - development
+  - baseline
+  - profile
+  - dotfiles
+  - micro
+  - pip
+  - development
+  - collection
+repository: "https://www.github.com/crivetimihai/ansible_development"
+homepage: "https://www.github.com/crivetimihai/ansible_development"
+documentation: "https://www.github.com/crivetimihai/ansible_development"
+issues: "https://www.github.com/crivetimihai/ansible_development/issues"

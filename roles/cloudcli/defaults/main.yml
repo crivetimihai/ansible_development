@@ -1,0 +1,11 @@
+---
+# defaults file for cloudcli
+
+install_compose: yes
+install_kompose: yes
+install_kubectl: yes
+install_helm: yes
+install_aws: yes
+install_azure: yes
+install_ibmcloud: yes
+install_oc: yes
