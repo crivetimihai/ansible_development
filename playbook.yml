@@ -7,3 +7,4 @@
   roles:
     - role: anaconda
     - role: cloudcli
+    - role: vscode

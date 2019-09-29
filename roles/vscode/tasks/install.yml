@@ -1,0 +1,20 @@
+---
+
+- name: install Microsoft rpm key
+  rpm_key:
+    state: present
+    key: https://packages.microsoft.com/keys/microsoft.asc
+
+- name: create local Visual Studio Code repository
+  yum_repository:
+    name: visual-studio-code
+    description: Visual Studio Code
+    baseurl: https://packages.microsoft.com/yumrepos/vscode
+    enabled: 1
+    gpgcheck: 1
+    gpgkey: https://packages.microsoft.com/keys/microsoft.asc
+
+- name: install vscode
+  yum:
+    name: "{{ packages }}" 
+    state: present
