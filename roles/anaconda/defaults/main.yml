@@ -35,4 +35,3 @@ pip_ansible_packages:
   - setuptools
   - selinux
   - python-vagrant
-  - mazer

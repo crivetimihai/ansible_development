@@ -5,4 +5,5 @@
   pip:
     name: docker-compose
     state: present
+    extra_args: --user --upgrade
   become: no

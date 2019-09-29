@@ -6,4 +6,5 @@
     executable: pip
     name: awscli
     state: present
+    extra_args: --user --upgrade
   become: no

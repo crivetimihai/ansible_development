@@ -37,13 +37,16 @@
   command: "{{ anaconda_path }}/bin/conda install -y {{ item }}"    # noqa 301
   with_items:
     - "{{ conda_packages }}"
+  become: "{{ anaconda_sudo }}"
 
 - name: install pip packages
   command: "{{ anaconda_path }}/bin/pip install --upgrade --user {{ item }}"    # noqa 301
   with_items:
     - "{{ pip_packages }}"
+  become: "{{ anaconda_sudo }}"
 
 - name: install pip ansible packages
   command: "{{ anaconda_path }}/bin/pip install --upgrade --user {{ item }}"    # noqa 301
   with_items:
     - "{{ pip_ansible_packages }}"
+  become: "{{ anaconda_sudo }}"
