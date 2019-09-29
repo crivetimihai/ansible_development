@@ -25,7 +25,7 @@
   get_url:
     url: "{{ anaconda_url }}"
     dest: /tmp/miniconda.sh
-    mode: '0700'
+    mode: '0777'
 
 - name: install Anaconda
   command: /tmp/miniconda.sh -b -p "{{ anaconda_path }}"
