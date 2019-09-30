@@ -16,5 +16,5 @@
 
 - name: install vscode
   yum:
-    name: "{{ packages }}" 
+    name: "{{ packages }}"
     state: present
