@@ -1,0 +1,17 @@
+---
+# vars file for atom
+
+# Packages to install
+_packages:
+  CentOS:
+    - "https://atom.io/download/rpm"
+  Fedora:
+    - "https://atom.io/download/rpm"
+  RedHat:
+    - "https://atom.io/download/rpm"
+  Debian:
+    - "https://atom.io/download/deb"
+  Ubuntu:
+    - "https://atom.io/download/deb"
+
+packages: "{{ _packages[ansible_distribution] | default([]) }}"

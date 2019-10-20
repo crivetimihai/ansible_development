@@ -5,6 +5,7 @@
   connection: local
   gather_facts: yes
   roles:
-    - role: anaconda
-    - role: cloudcli
-    - role: vscode
+    # - role: anaconda
+    # - role: cloudcli
+    # - role: vscode
+    - role: atom
