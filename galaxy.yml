@@ -15,7 +15,6 @@ tags:
   - dotfiles
   - micro
   - pip
-  - development
   - collection
 repository: "https://www.github.com/crivetimihai/ansible_development"
 homepage: "https://www.github.com/crivetimihai/ansible_development"
